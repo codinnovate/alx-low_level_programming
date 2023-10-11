@@ -3,7 +3,7 @@
 /**
  * add - Add two intergers
  * @x:The first number
- * @y:The second number 
+ * @y:The second number
  * Return: the results
 */
 
