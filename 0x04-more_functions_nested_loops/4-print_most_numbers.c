@@ -2,7 +2,8 @@
 
 /**
  * print_most_numbers - prints numbers from 0 to 9 followed by a newline
- * _putchar : print_most_numbers returns numbers from 0 to 9 followed by a new line
+ * _putchar : print_most_numbers returns numbers from 0 to 9
+ *  followed by a new line
  */
 
 void print_most_numbers(void)
