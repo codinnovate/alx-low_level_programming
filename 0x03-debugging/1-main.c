@@ -2,9 +2,7 @@
 
 /**
  * main - Entry point
- *
  * Description: Causes an infinite loop
- *
  * Return: Always 0
  */
 int main(void)
@@ -12,11 +10,9 @@ int main(void)
 int i;
 
 printf("Infinite loop incoming :(\n");
-
 i = 0;
 
-/** 
- * Commented out the infinite loop
+/**
  * while (i < 10)
  * {
  * putchar(i);
@@ -24,6 +20,5 @@ i = 0;
  */
 
 printf("Infinite loop avoided! \\o/\n");
-
 return (0);
 }
