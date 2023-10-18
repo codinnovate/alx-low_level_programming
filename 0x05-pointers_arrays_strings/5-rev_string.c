@@ -1,4 +1,4 @@
-#include "main.h" // Include your main.h file that defines _putchar
+#include "main.h"
 
 /**
  * rev_string - Reverses a string in-place.
