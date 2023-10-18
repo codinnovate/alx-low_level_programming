@@ -4,25 +4,28 @@
 
 char generateRandomChar()
 {
-=    char charset[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    int index = rand() % 62;
-    return charset[index];
+int index;
+char charset[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+index = rand() % 62;
+return charset[index];
 }
 
 void generateRandomPassword(int length)
 {
-    for (int i = 0; i < length; i++)
-    {
-        char randomChar = generateRandomChar();
-        putchar(randomChar);
-    }
-    putchar('\n');
+int i;
+for (i = 0; i < length; i++)
+{
+char randomChar = generateRandomChar();
+putchar(randomChar);
+}
+putchar('\n');
 }
 
 int main()
 {
-    srand(time(NULL));
-    int passwordLength = 12;
-    generateRandomPassword(passwordLength);
-    return 0;
+srand(time(NULL));
+int passwordLength = 12;
+generateRandomPassword(passwordLength);
+
+return (0);
 }
